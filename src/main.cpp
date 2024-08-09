@@ -16,7 +16,7 @@ const int WORKGROUP_SIZE = 32; // Workgroup size in compute shader.
 #ifdef NDEBUG
 const bool enableValidationLayers = false;
 #else
-const bool enableValidationLayers = true;
+const bool enableValidationLayers = false;
 #endif
 
 // Used for validating return values of Vulkan API calls.
